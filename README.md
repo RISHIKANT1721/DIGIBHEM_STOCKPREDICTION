@@ -1,4 +1,4 @@
-# DIGIBHEM_STOCKPREDICTION
+# DIGIBHEM_STOCK_PRICE_PREDICTION
 This code will first load the stock price data for Microsoft from a CSV file. Then, it will scale the data so that it is between 0 and 1. The data is then split into train and test sets, with 80% of the data used for training and 20% used for testing.
 
  The LSTM model is then created with  neurons in the hidden layer. The model is then compiled using the mean squared error (MSE) loss function and the Adam stochastic gradient descent optimizer. The model is then trained for 100 epochs.
